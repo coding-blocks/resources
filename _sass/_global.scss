@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 figure {
   margin: 0;
 }
-// For correct line number width in Github Gists
+// For correct line number width in Github Gistsx
 .gist table tbody tr td {
   box-sizing: content-box;
 }
@@ -23,13 +24,13 @@ html {
 }
 body {
   color: $text-color;
-  font-family: $font-family-main;
-  font-size: $font-size;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
   font-weight: 300;
   word-wrap: break-word;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-family-headings;
+  font-family: $base-font-family;
   line-height: 1.3;
   margin: 0.67em 0;
   a {
@@ -87,7 +88,7 @@ dd {
     margin-left: 2em;
 }
 p, ol, ul, dl, .math-display {
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 1em;
 }
 // KaTeX math display
