@@ -13,10 +13,10 @@ $base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #333;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
-$selection-color:  #fc4f4f;
+$selection-color:  rgba(252,79,79,0.5);
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -48,5 +48,6 @@ $link-color: #fc4f4f;
 @import
         "layout",
         "custom",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "global"
 ;

@@ -1,11 +1,27 @@
+.container-fluid{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .post-img{
   max-width: 100%;
 }
 .post-img iframe{
   width: 100%;
-  height: 37vw;
+  height: 30vw;
 }
-a:hover{
+.home-vid{
+  width: 100%;
+  height: 15vw;
+}
+.hover-card{
+  box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+    transition: all .3s ease;
+    margin-bottom: 30px!important;
+}
+.hover-card:hover{
+      box-shadow: 0 4px 8px 0 rgba(46,61,73,.12);
+}
+a:hover,a:focus,a:active{
   color: $text-color!important;
   text-decoration: none!important;
 }
@@ -84,7 +100,7 @@ nav .btn, .nav-bar .btn {
     text-transform: uppercase;
     font-size: 24px;
     line-height: 60px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: $base-font-family !important;
     font-weight: 600;
 }
 
@@ -119,7 +135,7 @@ nav.bg-dark .logo-dark {
     right: 0;
     font-size: 11px;
     content: "\e64b";
-    font-family: 'themify';
+    font-family: $base-font-family;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -130,7 +146,8 @@ nav.bg-dark .logo-dark {
 .menu {
     width: 100%;
     height: 55px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $base-font-family;
+    padding-top: 6px;
 }
 
 .menu.inline-block {
@@ -342,7 +359,7 @@ nav.nav-centered .module.widget-handle {
 }
 
 .module.widget-handle .title {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $base-font-family;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 11px;
@@ -908,8 +925,8 @@ ul.menu li {
 /*!---------- 6. BUTTONS ----------*/
 
 .btn {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border: 2px solid #fc4f4f;
+    font-family: $base-font-family;
+    border: 2px solid #fc4f4f!important;
     padding: 0 26px;
     height: 40px;
     min-width: 150px;
@@ -977,8 +994,9 @@ ul.menu li {
 }
 
 .btn-filled {
-    background: #fc4f4f;
-    color: #fff;
+    background: #fc4f4f!important;
+    color: #fff!important;
+    border-color: #fc4f4f!important;
 }
 
 .btn-white, .image-bg .btn, .image-bg .btn:visited {
@@ -1334,4 +1352,9 @@ img[align=left] {
 }
 img[align=right] {
   margin-left: 3%;
+}
+@media (max-width: 767px){
+  .fb-likebox{
+    display: none;
+  }
 }

@@ -10,22 +10,22 @@ layout: default
         {% for post in paginator.posts %}
             <div class="col-md-4 card">
 
-                <div class="panel panel-default">
+                <div class="panel panel-default hover-card">
                   <div class="panel-body">
                     <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
                   </div>
 
 
                   {% if post.src %}
-                  <iframe width="100%" height="250" src="{{post.src}}" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="100%" class="home-vid" src="{{post.src}}" frameborder="0" allowfullscreen></iframe>
                   {% else if post.img %}
                   <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
                   <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
                   {% endif %}
                   <div class="panel-body"><small>
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Read</a>
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 80 }}</small>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-filled btn-sm pull-right mt10">Read</a>
                   </div>
                 </div>
             </div>
