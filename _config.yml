@@ -32,7 +32,7 @@ paginate: 6
 paginate_path: /page:num/
 
 # Tracker
-analytics: UA-83327907-2
+analytics: UA-83327907-1
 
 # Comments
 disqus-shortname: championswimmer
