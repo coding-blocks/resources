@@ -163,6 +163,7 @@ nav.bg-dark .logo-dark {
     font-weight: 600;
     letter-spacing: 1px;
     color: #292929;
+    padding-top: 15px;
     opacity: 0.5;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -1150,7 +1151,7 @@ footer.bg-dark a {
 }
 
 .footer-1{
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 300!important;
 }
 .footer-1 li{
@@ -1360,4 +1361,43 @@ img[align=right] {
   .fb-likebox{
     display: none;
   }
+}
+
+.tag-box {
+    padding: 4px 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    *zoom: 1;
+}
+.tag-box:after,.tag-box:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.tag-box:after {
+    clear: both;
+}
+
+.tag-box.inline li {
+    float: left;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.tag-box a {
+    padding: 4px 6px;
+    margin: 2px;
+    text-decoration: none;
+    border: 0.0625rem solid black;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tag-box a span {
+    font-size: 10px;
+    vertical-align: super;
+    color: black;
 }
