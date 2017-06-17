@@ -1,6 +1,6 @@
 <div class="col-md-4 mt20">
   {% if page.id %}
-  <div class="mt10 recent hover-card">
+  <div class="mt10 recent">
     <h2>Recent articles</h2>
     <ul>
       {% for post in site.related_posts limit:3 %}
@@ -13,6 +13,17 @@
     </ul>
   </div>
   {% endif %}
+  <div class="mt10 recent">
+    <h2>Categories</h2>
+    <ul class="tag-box inline">
+      {% assign tags_list = site.categories %} {% if tags_list.first[0] == null %} {% for tag in tags_list %}
+      <li><a href="https://codingblocks.com/resources/categories/#{{ tag }}">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a></li>
+      {% endfor %} {% else %} {% for tag in tags_list %}
+      <li><a href="https://codingblocks.com/resources/categories/#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a></li>
+      {% endfor %} {% endif %} {% assign tags_list = nil %}
+    </ul>
+  </div>
+
   <div class="mt10 fb-likebox">
     <div class="fb-page" data-href="https://www.facebook.com/codingblocksindia/" data-width="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
       <blockquote cite="https://www.facebook.com/codingblocksindia/" class="fb-xfbml-parse-ignore"><a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a></blockquote>
