@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
 
-
+  <div class="home-heading">
+    <h1 class="vnu"><a href="https://codingblocks.com/resources/">Resources</a></h1>
+  </div>
     <div class="row pack">
 
         {% for post in paginator.posts %}
@@ -12,7 +14,7 @@ layout: default
 
                 <div class="panel panel-default hover-card">
                   <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 35 }}</h3>
                   </div>
 
 
@@ -24,7 +26,7 @@ layout: default
                   <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
                   {% endif %}
                   <div class="panel-body"><small>
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 80 }}</small>
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 65 }}</small><br>
                     <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-filled btn-sm pull-right mt10">Read</a>
                   </div>
                 </div>
