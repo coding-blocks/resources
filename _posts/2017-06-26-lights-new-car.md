@@ -10,7 +10,7 @@ img:
 Lights New Car Hacker Blocks Problem based on Number Theory Concepts.
 
 
-Read and Try **Lights New Car** first yourself.
+Read and Try **Read Min Pages Problem** first yourself.
 [Try now at **HackerBlocks**](https://hack.codingblocks.com/practice-section/p/66/92)
 
 
