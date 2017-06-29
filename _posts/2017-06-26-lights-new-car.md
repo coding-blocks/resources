@@ -10,7 +10,7 @@ img:
 Lights New Car Hacker Blocks Problem based on Number Theory Concepts.
 
 
-Read and Try **Read Min Pages Problem** first yourself.
+Read and Try **Light's New Car Problem** first yourself.
 [Try now at **HackerBlocks**](https://hack.codingblocks.com/practice-section/p/66/92)
 
 
@@ -41,45 +41,60 @@ typedef long long int ll;
 ll mod = 1000000007;
 
 ll stringToInt(string a,ll m){
+    
     ll ans = 0;
     for(int i=0;i<a.size();i++){
-        ans += (ans*10)%m  + (a[i]-'0');
+        ans = (ans*10)%m + (a[i]-'0');
         ans %= m;
     }
     return ans;
-
 }
 
-ll fastPower(ll a,ll b,ll m){
-    if(b==0){
+ll Power(ll x,ll y,ll m){
+    
+    // Base Case
+    if(y==0){
         return 1;
     }
-    ll smallPower = fastPower(a,b/2,m);
-    smallPower %=m;
+    //Recursive x^(y/2)
+    ll smallPower = Power(x,y/2,m);
+    smallPower %= m;
+    
     smallPower = (smallPower*smallPower)%m;
-
-    if(b&1){
-        return (smallPower*a)%m;
+    
+    if(y&1){
+        return (x*smallPower)%m;
     }
     return smallPower;
-
+    
+    
 }
 
 
 int main(){
-
-    int t;
+    
+    
+    ll t;
     cin>>t;
-    while(t--){
+    
     string a,b;
-    cin>>a>>b;
-
-    ll x = stringToInt(a,mod);
-    ll y = stringToInt(b,mod-1);
-
-    cout<<fastPower(x,y,mod)<<endl;
+    
+    while(t--){
+        cin>>a>>b;
+        
+        //String Into Integers
+        ll x = stringToInt(a,mod);
+        ll y = stringToInt(b,mod-1);
+        
+        //Power x^y
+        ll ans = Power(x,y,mod);
+        cout<<ans<<endl;
+        
+        
     }
-return 0;
-
+    
+    
+    return 0;
+}
 
 ```
