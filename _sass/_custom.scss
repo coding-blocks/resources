@@ -2319,3 +2319,12 @@ nav.nav-centered.outOfSight .logo {
   top: -10px;
   left: -7px;
 }
+/*Pagination Fix*/
+.pagination>li>a, .pagination>li>span{
+  width: inherit!important;
+  height: inherit!important;
+}
+/*Nav Fix*/
+.has-dropdown:after{
+  position: relative!important;
+}
