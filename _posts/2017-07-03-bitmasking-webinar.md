@@ -10,10 +10,6 @@ img:
 Concepts of Bitmasking Webinar on Youtube Live taken by **Prateek Narang**. Here are the codes and practice problems from the webinar.
 
 
-
-Read and Try **Unique Number-III** first yourself.
-[Try now at **HackerBlocks**](https://hack.codingblocks.com/practice/p/66/458)
-
 ## **_Questions for Practice_** 
 (Hints discussed in video)
 
@@ -73,6 +69,17 @@ int countBitsFast(int n){
     return count;
 }
 
+```
+
+#### XOR Swapping
+
+Swap two numbers using XOR
+
+```c
+    a = a^b;
+    b = a^b;
+    a = a^b;
+    
 ```
 
 #### **Get Bit, Set Bit and Clear Bit**
