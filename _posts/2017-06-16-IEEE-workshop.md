@@ -2,7 +2,7 @@
 layout: post
 title:  "IEEE Workshop Codes"
 categories: c++ DTU Workshop
-img: cody.jpg
+image: cody.jpg
 ---
 
 Codes from IEEE-DTU Workshop on Recursion, Backtracking etc.

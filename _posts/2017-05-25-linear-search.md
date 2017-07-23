@@ -2,13 +2,13 @@
 layout: post
 title:  "Linear Search"
 categories: c++ launchpad
-src: https://www.youtube.com/embed/zq93im4zzI4?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: zq93im4zzI4
 img: 
 ---
 
 Linear Search is simple algorithm used for searching a particular element in an array.
 
-```c
+```
 #include<iostream>
 using namespace std;
 

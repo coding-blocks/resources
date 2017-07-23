@@ -2,7 +2,7 @@
 layout: post
 title:  "Lights New Car - Number Theory"
 categories: c++ hackerblocks competitive-coding
-src: https://www.youtube.com/embed/K_UOxtlAIms?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: K_UOxtlAIms
 img: 
 ---
 

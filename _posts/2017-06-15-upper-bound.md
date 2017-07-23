@@ -2,7 +2,7 @@
 layout: post
 title:  "Upper & Lower Bound | Amazon Interview Question"
 categories: c++ binarysearch
-src: https://www.youtube.com/embed/dupq6N2U2DI
+vidId: dupq6N2U2DI
 img: 
 ---
 

@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
+    {% if page.vidId %}
+    <meta property="og:image" content="https://img.youtube.com/vi/{{page.vidId}}/hqdefault.jpg">
+    {% endif %}
     <link href="https://codingblocks.com/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://codingblocks.com/css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="https://codingblocks.com/css/theme-fire.css" rel="stylesheet" type="text/css" media="all"/>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Javascript Closures"
 categories: javascript
-src: https://www.youtube.com/embed/kPPy-VwuLxc
+vidId: kPPy-VwuLxc
 img:
 ---
 Javascript is one of the many languages that support 'closure' scopes.

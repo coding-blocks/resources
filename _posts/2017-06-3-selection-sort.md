@@ -2,7 +2,7 @@
 layout: post
 title:  "Selection Sort"
 categories: c++ binarysearch
-src: https://www.youtube.com/embed/24BbTDAWdeI?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId:: 24BbTDAWdeI
 img: 
 ---
 
