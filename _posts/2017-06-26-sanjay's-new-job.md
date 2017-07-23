@@ -2,7 +2,7 @@
 layout: post
 title:  "Sanjay's New Job - using STL Comparator"
 categories: c++ hackerblocks competitive-coding
-src: https://www.youtube.com/embed/4Gs-urq8UwE?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: 4Gs-urq8UwE
 img: 
 ---
 

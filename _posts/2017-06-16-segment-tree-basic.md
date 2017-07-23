@@ -2,7 +2,7 @@
 layout: post
 title:  "Segment Tree Basics"
 categories: c++ launchpad segment-tree 
-src: https://www.youtube.com/embed/FR5d4V7Z9SE?list=PLl4Y2XuUavmv3sEvfkzu2Lb0bYoJ44btI
+vidId: FR5d4V7Z9SE
 img: 
 ---
 

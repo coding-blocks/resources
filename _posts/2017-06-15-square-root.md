@@ -2,7 +2,7 @@
 layout: post
 title:  "Square Root Using Binary Search | Zomato & Amazon Interview Question"
 categories: c++ binarysearch
-src: https://www.youtube.com/embed/DY9mpb5YLZ4
+vidId: DY9mpb5YLZ4
 img: 
 ---
 

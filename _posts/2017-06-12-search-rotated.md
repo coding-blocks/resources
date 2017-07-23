@@ -2,7 +2,7 @@
 layout: post
 title:  "Search an element in sorted & rotated array"
 categories: c++ binarysearch
-src: https://www.youtube.com/embed/ctW9Q6Y_Z8k
+vidId: ctW9Q6Y_Z8k
 img: 
 ---
 

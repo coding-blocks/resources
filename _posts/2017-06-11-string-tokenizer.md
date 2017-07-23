@@ -2,7 +2,7 @@
 layout: post
 title:  "String Tokenizer-I"
 categories: c++ strings
-src: https://www.youtube.com/embed/5laM0Qwzpq8
+vidId:: 5laM0Qwzpq8
 img: 
 ---
 

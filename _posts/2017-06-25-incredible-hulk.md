@@ -2,7 +2,7 @@
 layout: post
 title:  "Incredible Hulk- Bitmasking"
 categories: c++ hackerblocks bitmasking
-src: https://www.youtube.com/embed/OQ8WvxOHZo8?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: OQ8WvxOHZo8
 img: 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Bitmasking LIVE Webinar"
 categories: c++ hackerblocks bitmasking codechef codeforces
-src: https://www.youtube.com/embed/wEZfc6cPC4w?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: "wEZfc6cPC4w"
 img: 
 ---
 
