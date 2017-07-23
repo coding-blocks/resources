@@ -2,7 +2,7 @@
 layout: post
 title:  "Binary Search"
 categories: c++ binarysearch
-src: https://www.youtube.com/embed/8er8Bzd6uhs?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: 8er8Bzd6uhs
 img: 
 ---
 

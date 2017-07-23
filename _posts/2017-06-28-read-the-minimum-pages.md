@@ -2,7 +2,7 @@
 layout: post
 title:  "Read the Pages - Google Interview Problem"
 categories: c++ hackerblocks competitive-coding binarysearch
-src: https://www.youtube.com/embed/Ss9ta1zmiZo?list=PLl4Y2XuUavmuDnf7r9Ij7MrdWtc1qvb05
+vidId: Ss9ta1zmiZo
 img: 
 ---
 

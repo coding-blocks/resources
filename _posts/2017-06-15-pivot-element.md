@@ -2,7 +2,7 @@
 layout: post
 title:  "Search pivot in sorted rotated array | Interview Question"
 categories: c++ binarysearch
-src: https://www.youtube.com/embed/-MhI4Qtk4KQ
+vidId: -MhI4Qtk4KQ
 img: 
 ---
 
