@@ -179,6 +179,8 @@ print 100*(preds == y_test).sum() / float(preds.shape[0])
     
 ### **Part-2 LIVE Project Code**
 
+[Sample Output](http://i.imgur.com/EHABvUI.png)
+
 #### record_faces.py
 
 ```python
