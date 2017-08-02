@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Machine Learning Webinar - Face Recogintion using KNN"
+title:  "Machine Learning Webinar - Face Recognition using KNN"
 categories: Machine-Learning
 vid: wQ9xBBi5U9o
 img: 
 ---
 
 ### **Machine Learning Webinar with LIVE Project**
+You can watch the entire video on [Youtube](https://youtu.be/wQ9xBBi5U9o)
 
 #### Packages to Install
 - Python 2.7
