@@ -3,7 +3,7 @@ layout: post
 title:  "Machine Learning Webinar - Face Recogintion using KNN"
 categories: Machine-Learning
 vid: wQ9xBBi5U9o
-img: image-4.png
+img: 
 ---
 
 ### **Machine Learning Webinar with LIVE Project**
@@ -179,7 +179,8 @@ print 100*(preds == y_test).sum() / float(preds.shape[0])
     
 ### **Part-2 LIVE Project Code**
 
-[Sample Output](http://i.imgur.com/EHABvUI.png)
+![Sample Output](http://i.imgur.com/EHABvUI.png)
+
 
 #### record_faces.py
 
