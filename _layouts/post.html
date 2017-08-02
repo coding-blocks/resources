@@ -21,7 +21,7 @@ layout: default
                 {% if page.vidId %}
                 <iframe width="100%" src="https://www.youtube.com/embed/{{page.vidId}}/" frameborder="0"
                         allowfullscreen></iframe>
-                {% else if page.img %}
+                {% else if page.image %}
                 <img width="100%" src="{{site.baseurl}}/images/{{page.image}}" alt="{{page.title}}">
                 {% else %}
                 <img width="100%" src="{{site.baseurl}}/images/{{site.default-image}}" alt="webjeda">
