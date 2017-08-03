@@ -3,7 +3,7 @@ layout: post
 title:  "Interview Experience for Goldman Sachs"
 categories: Interview
 vidId:
-img: "src"
+image: "sakham.jpg"
 ---
 
 Recently, Goldman Sachs conducted its drive at NSIT. We congratulate, Saksham Nagpal, one of our studnets from Algo++ for clearing all the rounds and making it into GS.
