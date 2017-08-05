@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interview Experience for Goldman Sachs"
-categories: Interview
+categories: Interview NSIT
 vidId:
 image: "sakham.jpg"
 ---
