@@ -5,6 +5,24 @@ layout: default
 <div class="home">
 
     <div class="row pack">
+        <article class="post">
+            <ul class="tag-box inline">
+                {% assign tags_list = site.categories %}
+                {% if tags_list.first[0] == null %}
+                {% for tag in tags_list %}
+                <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a></li>
+                {% endfor %}
+                {% else %}
+                {% for tag in tags_list %}
+                <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>({{ tag[1].size }})</span></a></li>
+                {% endfor %}
+                {% endif %}
+                {% assign tags_list = nil %}
+            </ul>
+        </article>
+    </div>
+    
+    <div class="row pack">
 
         {% for post in paginator.posts %}
         <div class="col-md-4 card">
@@ -16,7 +34,8 @@ layout: default
 
 
                 {% if post.vidId %}
-                <iframe width="100%" class="home-vid" src="https://www.youtube.com/embed/{{post.vidId}}/" frameborder="0"
+                <iframe width="100%" class="home-vid" src="https://www.youtube.com/embed/{{post.vidId}}/"
+                        frameborder="0"
                         allowfullscreen></iframe>
                 {% else if post.image %}
                 <img width="100%" src="{{site.baseurl}}/images/{{post.image}}" alt="{{post.title}}">
