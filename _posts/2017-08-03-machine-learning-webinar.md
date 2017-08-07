@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Machine Learning Webinar - Face Recognition using KNN"
-categories: Machine-Learning
+categories: [Webinar]
+tags: Machine-Learning
 vidId: wQ9xBBi5U9o
 img: 
 ---

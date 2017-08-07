@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Selection Sort"
-categories: c++ binarysearch
+categories: [Tutorial]
+tags: c++ binarysearch
 vidId:: 24BbTDAWdeI
 img: 
 ---

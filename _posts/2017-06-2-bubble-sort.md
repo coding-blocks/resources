@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Binary Search"
-categories: c++ binarysearch
+categories: [Tutorial]
+tags: c++ binarysearch
 vidId: hlPtqv0nU04
 img: 
 ---

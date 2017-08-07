@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Search pivot in sorted rotated array | Interview Question"
-categories: c++ binarysearch
+categories: [Tutorial]
+tags: c++ binarysearch
 vidId: -MhI4Qtk4KQ
 img: 
 ---

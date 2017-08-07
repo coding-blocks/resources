@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Incredible Hulk- Bitmasking"
-categories: c++ hackerblocks bitmasking
+categories: [Hackerblocks]
+tags: c++ hackerblocks bitmasking
 vidId: OQ8WvxOHZo8
 img: 
 ---

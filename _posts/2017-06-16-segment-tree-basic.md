@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Segment Tree Basics"
-categories: c++ launchpad segment-tree 
+categories: [Tutorial]
+tags: c++ launchpad segment-tree 
 vidId: FR5d4V7Z9SE
 img: 
 ---

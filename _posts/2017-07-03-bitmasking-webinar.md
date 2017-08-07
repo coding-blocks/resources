@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Bitmasking LIVE Webinar"
-categories: c++ hackerblocks bitmasking codechef codeforces
+categories: [Webinar]
+tags: c++ hackerblocks bitmasking codechef codeforces
 vidId: "wEZfc6cPC4w"
 img: 
 ---

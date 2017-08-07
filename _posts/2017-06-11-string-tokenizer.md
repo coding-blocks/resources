@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "String Tokenizer-I"
+tag: [Tutorial]
 categories: c++ strings
 vidId:: 5laM0Qwzpq8
 img: 

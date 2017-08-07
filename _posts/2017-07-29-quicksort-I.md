@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Quicksort - I : Working + Implementation"
-categories: c++ sorting 
+categories: [Tutorial]
+tags: c++ sorting 
 vidId: "8isAsDxcXPo"
 img: 
 ---

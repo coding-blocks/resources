@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Quicksort - II : Randomized Quicksort"
-categories: c++ sorting 
+categories: [Tutorial]
+tags: c++ sorting 
 vidId: "v15UqHWbbWk"
 img: 
 ---

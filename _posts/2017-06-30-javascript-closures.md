@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Javascript Closures"
-categories: javascript
+categories: [Tutorial]
+tags: javascript
 vidId: kPPy-VwuLxc
 img:
 ---

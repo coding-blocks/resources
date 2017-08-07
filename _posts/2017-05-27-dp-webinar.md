@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Dynamic Programming for beginners Online Webinar"
-categories: c++ adhoc launchpad
+categories: [Webinar]
+tags: c++ adhoc launchpad
 vidId: X7SrnbgqHHs
 img: 
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "IEEE Workshop Codes"
-categories: c++ DTU Workshop
+categories: [Workshop]
+tags: c++ DTU Workshop
 image: cody.jpg
 ---
 

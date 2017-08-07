@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Read the Pages - Google Interview Problem"
-categories: c++ hackerblocks competitive-coding binarysearch
+categories: [Hackerblocks]
+tags: c++ hackerblocks competitive-coding binarysearch
 vidId: Ss9ta1zmiZo
 img: 
 ---

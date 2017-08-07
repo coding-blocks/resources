@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Lights New Car - Number Theory"
-categories: c++ hackerblocks competitive-coding
+categories: [Hackerblocks]
+tags: c++ hackerblocks competitive-coding
 vidId: K_UOxtlAIms
 img: 
 ---

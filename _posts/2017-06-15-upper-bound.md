@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Upper & Lower Bound | Amazon Interview Question"
-categories: c++ binarysearch
+categories: [Tutorial]
+tags: c++ binarysearch
 vidId: dupq6N2U2DI
 img: 
 ---

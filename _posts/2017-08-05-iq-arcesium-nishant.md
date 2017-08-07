@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Arcesium's Grilling Interview, for highest paid internship - Nishant Nahata's Experience"
-categories: Interview DTU
+categories: [Interview Experience]
+tags: Interview DTU
 image: "nishant_new.jpg"
 ---
 

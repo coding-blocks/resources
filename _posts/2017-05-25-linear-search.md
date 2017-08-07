@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Linear Search"
-categories: c++ launchpad
+categories: [Tutorial]
+tags: [cpp, launchpad]
 vidId: zq93im4zzI4
 img: 
 ---
