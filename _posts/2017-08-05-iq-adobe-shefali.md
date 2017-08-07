@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adobe's Six Interview Rounds and NSIT's Shefali Srivastva sails through !"
-categories: Interview NSIT
+categories: [Interview Experience]
 image: "shefali.jpg"
 ---
 
