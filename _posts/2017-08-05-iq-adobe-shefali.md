@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adobe's Six Interview Rounds and NSIT's Shefali Srivastva sails through !"
+title:  "Adobe's Six Interview Rounds and NSIT's Shefali Srivastava sails through !"
 categories: [Interview Experience]
 image: "shefali.jpg"
 ---
@@ -82,8 +82,10 @@ Construct a stack using two queues.
 ### **ROUND 5 - Technical Interview**
 
 **Q1:** Write a sorting algorithm that uses O(N) space and O(N) time.
-Find a node reachable from every other node in DAG.
-In an array find 4 indices such that a[i] + a[j] = a[k] + a[l]
+
+**Q2:** Find a node reachable from every other node in DAG.
+
+**Q3:** In an array find 4 indices such that a[i] + a[j] = a[k] + a[l]
 
 ### **ROUND 6 - HR Interview** 
 
