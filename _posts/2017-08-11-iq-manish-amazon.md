@@ -49,7 +49,7 @@ Recently, Manish Mittal from **NSIT** completed his summer internship at Amazon,
 
 ### **Manish's Internship Experience at Amazon**
 
-This experience of working as an SDE intern at amazon was one of the best experiences of my life. All thanks to Coding blocks' Launchpad program and _Prateek Bhaiya_, under whose guidance I could learn so much in such short time and could get an internship offer from amazon. Truly speaking, those 2 months of ** last year, were the time when I actually started up with competitive coding and studied Data structures and Algorithms properly.
+This experience of working as an SDE intern at amazon was one of the best experiences of my life. All thanks to Coding Blocks **Launchpad program** and _Prateek Bhaiya_, under whose guidance I could learn so much in such short time and could get an internship offer from amazon. Truly speaking, those 2 months of last year, were the time when I actually started up with **competitive coding** and studied **Data structures and Algorithms** properly.
 
 ### **Week 1**
 
