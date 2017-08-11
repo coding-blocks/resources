@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Work Life at Amazon, Crucial Skills to get a PPO - Manish Mittal's Experience"
-categories: [Interview Experience]
+categories: [Work Experiences]
 tags: Interview DTU
 image: "manish.jpg"
 ---
