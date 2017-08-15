@@ -1,10 +1,17 @@
 ---
 layout: default
+title: Interview Experience
+permalink: /categories/interview/index.html
+tags: [interview]
+description: "Coding Blocks students share their interview experiences at top MNCs. Know the questions that are asked by top companies in India."
+siteamp:
+    include: 'yes'
 ---
 
 <div class="home">
 
     {% for category in site.categories reversed %}
+    {% if category[0] == 'Interview Experience' %}
     <div class="mt50">
         <a href="categories/#{{ category[0] }}" name="{{ category[0] }}">
             <h2 class="text-center text-uppercase">{{ category[0] }}</h2>
@@ -48,42 +55,7 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-        {% if category[0] == 'Interview Experience' %}
-        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
-            <a href="{{ '/categories/interview/' | prepend: site.baseurl }}"
-               class="btn btn-filled btn-md">Read More</a>
-        </div>
-        {% endif %}
-        {% if category[0] == 'Hackerblocks' %}
-        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
-            <a href="{{ '/categories/hackerblocks/' | prepend: site.baseurl }}"
-               class="btn btn-filled btn-md mt10" style="margin-bottom: 40px;">Read More</a>
-        </div>
-        {% endif %}
-        {% if category[0] == 'Work Experiences' %}
-        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
-            <a href="{{ '/categories/work-experiences/' | prepend: site.baseurl }}"
-               class="btn btn-filled btn-md mt10" style="margin-bottom: 40px;">Read More</a>
-        </div>
-        {% endif %}
-        {% if category[0] == 'Workshop' %}
-        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
-            <a href="{{ '/categories/workshop/' | prepend: site.baseurl }}"
-               class="btn btn-filled btn-md mt10" style="margin-bottom: 40px;">Read More</a>
-        </div>
-        {% endif %}
-        {% if category[0] == 'Webinar' %}
-        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
-            <a href="{{ '/categories/webinar/' | prepend: site.baseurl }}"
-               class="btn btn-filled btn-md mt10" style="margin-bottom: 40px;">Read More</a>
-        </div>
-        {% endif %}
-        {% if category[0] == 'Tutorial' %}
-        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
-            <a href="{{ '/categories/tutorial/' | prepend: site.baseurl }}"
-               class="btn btn-filled btn-md mt10" style="margin-bottom: 40px;">Read More</a>
-        </div>
-        {% endif %}
-        {% endfor %}
     </div>
+    {% endif %}
+    {% endfor %}
 </div>
