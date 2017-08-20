@@ -6,7 +6,7 @@ tags: Interview DTU
 image: "rachit.jpg"
 ---
 
-
+DTU's Rachit got a PPO after successful summer internship at Adobe.
 
 #### **Profile Overview:**
 
