@@ -31,6 +31,20 @@
   box-shadow: 0 4px 8px 0 rgba(46,61,73,.12);
 }
 
+/* Thus manifested his shallow quest for glamour,
+ * "All day long, I shall mimic a programmer!"
+ * So he fired up node,
+ * Wrote some semblance of code,
+ * But you cannot make frescoes with a hammer.
+ */
+.home {
+  .hover-card .panel-body small {
+    display: block;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
 a:active,
 a:focus,
 a:hover {
