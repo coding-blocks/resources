@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IEEE Techweek Game Dev Workshop Codes"
+title:  "IEEE Techweek Game Workshop"
 categories: [Workshop]
 tags: c++ DTU Workshop
 image: dtu_ieee_pokemon.jpg
@@ -79,12 +79,14 @@ Codes from IEEE-DTU Techweek Workshop on Game Development.
     </body>
 </html>
 
-
 ```
-
+### **Starting with the Game - The Game Loop**
+![GameLoop](http://i.imgur.com/GJjFroX.png)
 
 ### **Pokemon Game - Code**
 The game has two files one for HTML,CSS and another one for JS.
+
+
 
 index.html
 
@@ -115,7 +117,7 @@ index.html
 
 
 ### **JavaScript Code**
-Keep both files in same folder.
+Keep both files in same folder
 
 
 ```js
@@ -227,10 +229,13 @@ loop();
 
 ```
 
+### **Download Files**
 All Codes and Assets can be downloaded from [Github Repository](https://github.com/prateek27/Workshops) as well.
 
-To learn more join us on [Yoube](http://cb.lk/yt) by subscribing.
-### Upcoming Bootcamps(Aug-Sept) 
+### **Learn from Coding Blocks Tutorials**
+To learn more subscribe us on [Yoube](http://cb.lk/yt) 
+
+### **Upcoming Bootcamps(Aug-Sept)** 
 - Game Development in JavaScript
 - Terminal Game Development in C 
 - Python Chatbots and Automation Bootcamp
