@@ -2,9 +2,10 @@
 layout: post
 title:  "Interview Experience for Amazon"
 categories: Interview
+tags: [amazon, interview, experience]
 vidId:
 img: "src"
---
+---
 
 ### Preliminary Round 
 
