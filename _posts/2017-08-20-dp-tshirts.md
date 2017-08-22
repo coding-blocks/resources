@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "TShirts - Codechef Long Challenge - by Prateek Narang, Coding Blocks"
-categories: c++ dp
+tags: c++ dp
+categories: Tutorial
 vidId: "8bdXzqabYls"
 img: 
 ---
