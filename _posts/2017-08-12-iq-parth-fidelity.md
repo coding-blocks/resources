@@ -2,7 +2,7 @@
 layout: post
 title:  "NIT-Kurukshetra's Parth cracks Fidelity Investments, know about the procedure"
 categories: [Interview Experience]
-tags: Interview 
+tags: [Interview] 
 image: "parth.jpg"
 ---
 
