@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Nikhil's Amazon Internship Interview"
-categories: [Interview Experience]
-tags: Interview DTU
+categories: "Interview Experience"
+tags: [Interview DTU]
 image: "nikhil_kr_singh.jpg"
 ---
 
