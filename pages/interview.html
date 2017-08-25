@@ -5,7 +5,7 @@ permalink: /categories/interview/index.html
 tags: [interview]
 description: "Coding Blocks students share their interview experiences at top MNCs. Know the questions that are asked by top companies in India."
 siteamp:
-    include: 'yes'
+include: 'yes'
 ---
 
 <div class="home">
@@ -16,46 +16,43 @@ siteamp:
         <a href="categories/#{{ category[0] }}" name="{{ category[0] }}">
             <h2 class="text-center text-uppercase">{{ category[0] }}</h2>
         </a>
-        {% if category.size <= 2 %}
         <div class="row">
-            {% else %}
-            <div class="row pack">
-                {% endif %}
-                {% for posts in category offset:1 %}
-                {% for post in posts reversed limit:3 %}
-                <div class="col-md-4">
+
+            {% for posts in category offset:1 %}
+            {% for post in posts %}
+            <div class="col-md-4">
 
 
-                    <div class="panel panel-default hover-card">
-                        <div class="panel-body">
-                            <h3 class="panel-title pull-left">{{ post.title | truncate: 35 }}</h3>
-                        </div>
+                <div class="panel panel-default hover-card">
+                    <div class="panel-body">
+                        <h3 class="panel-title pull-left">{{ post.title | truncate: 35 }}</h3>
+                    </div>
 
 
-                        {% if post.vidId %}
-                        <iframe width="100%" class="home-vid" src="https://www.youtube.com/embed/{{post.vidId}}/"
-                                frameborder="0"
-                                allowfullscreen></iframe>
-                        {% else if post.image %}
-                        <img width="100%" src="{{site.baseurl}}/images/{{post.image}}" alt="{{post.title}}">
-                        {% else %}
-                        <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
-                        {% endif %}
-                        <div class="panel-body">
-                            <small>
-                                {{ post.excerpt | strip_html | strip_newlines | truncate: 65 }}
-                            </small>
-                            <br>
-                            <a href="{{ post.url | prepend: site.baseurl }}"
-                               class="btn btn-filled btn-sm pull-right mt10">Read</a>
-                        </div>
+                    {% if post.vidId %}
+                    <iframe width="100%" class="home-vid" src="https://www.youtube.com/embed/{{post.vidId}}/"
+                            frameborder="0"
+                            allowfullscreen></iframe>
+                    {% else if post.image %}
+                    <img width="100%" src="{{site.baseurl}}/images/{{post.image}}" alt="{{post.title}}">
+                    {% else %}
+                    <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                    {% endif %}
+                    <div class="panel-body">
+                        <small>
+                            {{ post.excerpt | strip_html | strip_newlines | truncate: 65 }}
+                        </small>
+                        <br>
+                        <a href="{{ post.url | prepend: site.baseurl }}"
+                           class="btn btn-filled btn-sm pull-right mt10">Read</a>
                     </div>
                 </div>
-                {% endfor %}
-                {% endfor %}
             </div>
+            {% endfor %}
+            {% endfor %}
         </div>
     </div>
-    {% endif %}
-    {% endfor %}
+</div>
+{% endif %}
+{% endfor %}
 </div>
