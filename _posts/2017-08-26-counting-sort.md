@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Counting Sort"
-categories: [Hackerblocks]
+categories: [Tutorial]
 tags: c++ hackerblocks competitive-coding
 vidId: cOBcekmPWaM
 img: 
