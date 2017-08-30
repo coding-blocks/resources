@@ -6,7 +6,13 @@ tags: [Interview]
 image: "bhavya.jpg"
 ---
 
-We congratulate Bhavya Aggarwal of NSIT 3rd year for getting selected in Goldman Sachs as a Summer Analyst Intern. We thank him for sharing his interview experiences with this student community. 
+We congratulate Bhavya Aggarwal of NSIT 3rd year for getting selected in Goldman Sachs as a Summer Tech Analyst Intern. We thank him for sharing his interview experiences with this student community. 
+
+Profile Overview:  
+Name of the Company: Goldman Sachs  
+Profile: Summer Analyst (Technology)  
+Duration: 2 Months  
+Stipend: INR 75,000 Per Month  
 
 
 Goldman Sachs came to recruit students for its Summer Internship on 29th July 2017. Interviews were held on 30th July 2017.
@@ -26,15 +32,15 @@ geeksforgeeks similar question: http://www.geeksforgeeks.org/program-find-smalle
 Q2: 
 Given the first names and last names for n students. All the students can make their handles from their first name or last name. Then we are given a permutation of students. We have to check if the order of handles according to the permutation is lexicographically sorted or not. 
 For eg lets assume there are two students:
-
+```
 	Firstname Lastname
 
-      a 		c
+      	a 		c
 
-	      b   		f
+	b   		f
 
-      e		d
-
+	e		d
+```
 If the permutation is “1 2 3” then we can choose the handles as “a, b, d” and they would be in lexicographical order. But if the permutation is “3 2 1” then we can not choose handles such that the order is lexicographically sorted.
 Codeforce question link: http://codeforces.com/problemset/problem/472/C
 
@@ -100,9 +106,11 @@ The interviews also included some basic questions which were just discussed, for
 
 The panelist also asked a couple of direct questions from CRUX Book,a book on Java that I Co-Authored with Apoorvaa Gupta and our mentors Sumeet Sir and Rishab Sir under Coding Blocks. (The questions that I had created :P)
 
+<img src="/resources/images/crux/cover.jpeg" style="width:48%;display:inline-block">
+<img src="/resources/images/crux/index.jpeg" style="width:48%;display:inline-block">
 
 I would like to thank all my mentors from Coding Blocks - Sumeet Sir, Arnav Sir, Prateek Sir, Rajesh Sir, Priyanshu Sir for constant support and guidance. I wouldn’t think twice before accepting that my experience and skill enhancement at Coding Blocks is the reason behind my success at the interview.
 
-Bhavya Aggarwal
-3rd Year
+Bhavya Aggarwal  
+3rd Year  
 NSIT
