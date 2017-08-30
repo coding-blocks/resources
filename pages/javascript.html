@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hacker Blocks
-permalink: /categories/talksandconferences/index.html
+permalink: /categories/javascript/index.html
 tags: [hackerblocks]
-description: "Talks and Conferences"
+description: "Javascript Tutorials"
 siteamp:
 include: 'yes'
 ---
@@ -11,7 +11,7 @@ include: 'yes'
 <div class="home">
 
     {% for category in site.categories reversed %}
-    {% if category[0] == 'Talks and Conferences' %}
+    {% if category[0] == 'Javascript' %}
     <div class="mt50">
         <a href="categories/#{{ category[0] }}" name="{{ category[0] }}">
             <h2 class="text-center text-uppercase">{{ category[0] }}</h2>
