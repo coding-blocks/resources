@@ -47,6 +47,12 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+        {% if category[0] == 'Talks and Conferences' %}
+        <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
+            <a href="{{ '/categories/talksandconferences/' | prepend: site.baseurl }}"
+               class="btn btn-filled btn-md">Read More</a>
+        </div>
+        {% endif %}
         {% if category[0] == 'Python' %}
         <div class="col-xs-12 center-block text-center" style="margin-bottom: 40px;">
             <a href="{{ '/categories/python/' | prepend: site.baseurl }}"
