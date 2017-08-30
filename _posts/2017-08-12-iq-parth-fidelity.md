@@ -3,7 +3,7 @@ layout: post
 title:  "NIT-Kurukshetra's Parth cracks Fidelity Investments, know about the procedure"
 categories: [Interview Experience]
 tags: [Interview] 
-image: "parth.jpg"
+image: "parth_dhamija.jpg"
 ---
 
 Recently, Fidelity Investments visited NIT Kurukshetra's campus for its recruitment drive. **Parth Dhamija** was selected. We congratulate for getting selected for Fidelity Investments as an Intern. We thank him for sharing his interview experiences with this student community. 
