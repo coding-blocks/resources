@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bhavya Aggarwal, NSIT 3rd year Student bags Internship at Goldman Sachs"
+title:  "Never studided for placments,always explored things - Bhavya bags GS Offer"
 categories: [Interview Experience]
 tags: [Interview] 
 image: "bhavya.jpg"

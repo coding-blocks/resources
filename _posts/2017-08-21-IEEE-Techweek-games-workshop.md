@@ -233,7 +233,7 @@ loop();
 All Codes and Assets can be downloaded from [Github Repository](https://github.com/prateek27/Workshops) as well.
 
 ### **Learn from Coding Blocks Tutorials**
-To learn more subscribe us on [Yoube](http://cb.lk/yt) 
+To learn more subscribe us on [Youtube](http://cb.lk/yt) 
 
 ### **Upcoming Bootcamps(Aug-Sept)** 
 - Game Development in JavaScript
