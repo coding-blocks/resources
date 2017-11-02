@@ -109,7 +109,7 @@ The panelist also asked a couple of direct questions from CRUX Book,a book on Ja
 <img src="/resources/images/crux/cover.jpeg" style="width:48%;display:inline-block">
 <img src="/resources/images/crux/index.jpeg" style="width:48%;display:inline-block">
 
-I would like to thank all my mentors from Coding Blocks - Sumeet Sir, Arnav Sir, Prateek Sir, Rajesh Sir, Priyanshu Sir for constant support and guidance. I wouldn’t think twice before accepting that my experience and skill enhancement at Coding Blocks is the reason behind my success at the interview.
+I would like to thank all my mentors from Coding Blocks - Arnav Sir, Prateek Sir, Rajesh Sir, Priyanshu Sir for constant support and guidance. I wouldn’t think twice before accepting that my experience and skill enhancement at Coding Blocks is the reason behind my success at the interview.
 
 Bhavya Aggarwal  
 3rd Year  
