@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Machine Learning Webinar - Face Recognition using KNN"
+title:  "Machine Learning Basics Webinar | Prateek Narang"
 categories: [Webinar]
 tags: Machine-Learning
 vidId: JQpWKGcDm70
@@ -736,10 +736,6 @@ plt.show()
 
 
 ### Subscribe us on [Youtube](http://cb.lk/yt) for more such tutorials.
-
-
-
-
 
 
 ### **Download Project**
