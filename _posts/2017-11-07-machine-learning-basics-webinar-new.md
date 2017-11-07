@@ -41,7 +41,7 @@ Machine learning is a subfield of artificial intelligence (AI) concerned with al
 
 - Output is a required 'float' value as the output, giving the required acceleration of the car.
 
-![](images/car.png)
+![Car Image](https://i.imgur.com/jbJARdl.png)
 
 
 
@@ -76,59 +76,6 @@ Machine learning is a subfield of artificial intelligence (AI) concerned with al
 ### and many more...
 
 
-# Few Interesting Applications 
-Some of these are covered as class Projects in Coding Blocks - Perceptron Machine Learning Course.
-
-# Neural Art - PRISMA
-!["HILL"](images/neural_art.jpg)
-
-<br><br><br><br>
-
-# Conversational Engine(Microsoft Ruuh)
-<br> <br>
-![](images/ruh_1.jpg)
-![](images/ruuh.png)
-
-<br><br><br><br>
-
-# Tay Tweets(Tweet Bot - Microsoft)
-![](images/tay.jpg)
-
-
-<br><br><br><br>
-
-# Playing with Words and Images (Vector Arithmetic)
-![](images/words_and_image.png)
-
-
-<br><br><br><br>
-
-# Colorizing the World using Neural Nets
-![](images/color_world.jpg)
-![](images/color2.png)
-
-
-<br><br><br><br>
-
-# Story Generation
-![](images/sumo.jpg)
-![](images/sumo2.jpg)
-
-<br><br><br><br>
-
-
-# Story of Alpha-Go Vs Lee Sedol
-![](images/alpha_go.jpg)
-
-<br><br><br><br>
-
-# AI in Games
-![](images/gaming.jpg)
-
-<br><br><br><br>
-
-# And many more ...
-
 # Different Machine Learning Approaches
 ## Supervised Learning
 - Algorithms to get a set of *Labeled Data* called Training Data
@@ -152,20 +99,21 @@ Some of these are covered as class Projects in Coding Blocks - Perceptron Machin
 - Mostly used to classify data into various sets, similar data is clubbed into a single set called a cluster. 
 - Example: Clustering Algorithms to classify a set of related data into a single cluster
 <br><br>
-
-| Color(X)      | Sweetness(Y)    
+| Color(X)      | Sweetness(Y)    |
 | ------------- |-------------:|
-| 0.80       | 0.87          |  
-| 0.80       | 0.83          |  
-| 0.10       | 0.27          |  
-| 0.30       | 0.47          |  
-| 0.83       | 0.82          |  
-| 0.60       | 0.97          |  
+| 0.80       | 0.90          |
+| 0.80       | 0.84          |
+| 0.10       | 0.27          |
+| 0.30       | 0.47          |
+| 0.83       | 0.83          |
+| 0.60       | 0.97          |
+
 ## Reinforcement Learning
 - It has a feedback element to improve its performance
 - Based upon the idea of "reward", algorithm will move in a direction to achieve maximum reward.
 - Good Application : Teaching Machine to play games like Tic-Tac-Toe,Chess etc
 - Algorithms uses moves tried in the past which led to successful results
+![Gaming AI](https://i.imgur.com/sOTBo9J.jpg)
 
 # Popular Techniques
 - K-Means
@@ -190,13 +138,13 @@ Some of these are covered as class Projects in Coding Blocks - Perceptron Machin
 - Numpy - Mathematic Operations
 - Pandas - Working with CSV's(Excel Sheets), Data reading and writing
 - Matplotlib - Plotting Graphs
+
 # Python Basics
 - Lists
 - Dictionaries
 - Sorting
 - Lambda Function
 - Range Function
-
 
 
 ```python
@@ -385,11 +333,10 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![Plot1-1](https://i.imgur.com/OjG566g.png)
 
 
-
-![png](output_18_1.png)
+![Plot-2](https://i.imgur.com/RcPdk4T.png)
 
 
 
@@ -519,7 +466,7 @@ plt.show
 
 
 
-![png](output_19_2.png)
+![Scatter Plot](https://i.imgur.com/h5M9zQq.png)
 
 
 # Probability Distribution 
@@ -538,18 +485,16 @@ plt.show
     E(X) is the expected value of X.
 
 ## Normal/Gaussian Distribution
-![](images/normal_distribution.svg)
+![](https://i.imgur.com/9iQF4qO.png)
 Normal distributions are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known.
 
 ## Standard Normal Distribution
-![](images/std_normal.svg)
-
+![](https://i.imgur.com/ljhuj1f.png)
 
 ## Multivariate Normal Distribution
 Example in 2 dimensions-
-![](images/mvn.svg)
-![](images/mv.png)
-
+![](https://i.imgur.com/syKD36E.png)
+![Imgur](https://i.imgur.com/koi0VJs.png)
 
 
 
@@ -628,7 +573,7 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![](https://i.imgur.com/AMYm4RD.png)
 
 
 
@@ -700,7 +645,7 @@ print predicted_label
 # Accuracy =  (Successes)/ (Total no of testing points) * 100
 ```
 
-# Project Work
+# Project Work - Handwritten Digit Recognition on MNIST Dataset(using KNN)
 
 
 
@@ -744,8 +689,7 @@ plt.show()
     2
     
 
-
-![png](output_2_1.png)
+![](https://i.imgur.com/R6C2pop.png)
 
 
 
@@ -788,7 +732,7 @@ plt.show()
     
 
 
-![png](output_4_1.png)
+![](https://i.imgur.com/YeRe2pv.png)
 
 
 ### Subscribe us on [Youtube](http://cb.lk/yt) for more such tutorials.
