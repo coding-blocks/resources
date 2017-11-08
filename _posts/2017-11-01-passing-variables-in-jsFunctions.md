@@ -11,7 +11,8 @@ img:
 Pass by Value and Pass by Reference in Javascript
 
 
-Video Explanation by **Arnav Gupta**
+Video by **Arnav Gupta**
+Tutorial by **Apoorvaa Gupta**
 
 A variable can be passed to the function in two ways. Either by value or by reference.
 
