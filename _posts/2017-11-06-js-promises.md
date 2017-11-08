@@ -12,7 +12,9 @@ img:
 
 We take a look at the ES6 promise API. We see the difference between the asynchronous functions using callback, and the new Promise syntax. The difference between resolve and reject is explained, and we also see how we can use a deffered resolve (handing the then() call after the promise has been resolved)
 
-Video Explanation by **Arnav Gupta**
+Video by **Arnav Gupta**
+Tutorial by **Rishabh Khanna**
+
 
 we have been writing asyncromous javascript code for quite a while now, but the thing about async code is it can easily become a asycn hell, sending callbacks inside callbacks can lead your code to be look somthing like this
 
