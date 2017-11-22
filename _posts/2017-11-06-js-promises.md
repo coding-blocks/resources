@@ -110,7 +110,7 @@ Promise.all([
     console.log(err)
 })
 ```
-###
+##
 
 Promises were introduced in ES6, earlier promises could be used in javascript by using [Bluebird](http://bluebirdjs.com/docs/getting-started.html). you can read more on promises on the [mdn docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
