@@ -1,24 +1,22 @@
 ---
 layout: post
 title:  "Travelling Salesman Problem : Easiest Approach to Implement using Dynamic Programming"
-categories: [Hackerblocks]
-tags: c++ hackerblocks competitive-coding
+categories: [Competitive.Coding]
+tags: c++ tutorials competitive-coding
 vidId: JE0JE8ce1V0
 img: 
 ---
 
-
-
 ### Travelling Salesman Problem with Code
-Problem Statement : Given a problem statement, 
+Given a set of cities(nodes), find a minimum weight Hamiltonian Cycle/Tour.
 
-[Run on IDE](https://codingblocks.com/ide/#/s/3899)
 
 ### **Concepts Used**:
 Graphs, Bitmasking, Dynamic Programming
 
 ### **Complexity**
-O(2^n * n^2)
+[Run on IDE](https://codingblocks.com/ide/#/s/3899)
+'O(2^n * n^2)'
 
 
 **Solution**
