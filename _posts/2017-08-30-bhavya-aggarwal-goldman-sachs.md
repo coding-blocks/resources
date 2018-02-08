@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Never studided for placments,always explored things - Bhavya bags GS Offer"
+title:  "Never Studied for Placements, Always Explored Things - Bhavya Bags GS Offer"
 categories: [Interview Experience]
 tags: [Interview] 
 image: "bhavya.jpg"
