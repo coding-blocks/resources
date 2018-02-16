@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Travelling Salesman Problem : Easiest Approach to Implement using Dynamic Programming"
-categories: [Competitive.Coding]
+categories: [Tutorial]
 tags: c++ tutorials competitive-coding
 vidId: JE0JE8ce1V0
 img: 
