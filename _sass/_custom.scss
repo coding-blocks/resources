@@ -156,7 +156,7 @@ nav.bg-dark .logo-dark {
 }
 
 .has-dropdown {
-  padding-right: 18px;
+  // padding-right: 18px;
 }
 
 .has-dropdown:after {
@@ -2341,4 +2341,16 @@ nav.nav-centered.outOfSight .logo {
 /*Nav Fix*/
 .has-dropdown:after{
   position: relative!important;
+}
+
+/*Breadcrumb overlay fix*/
+@media only screen and (max-width: 1190px) and (min-width: 990px) {
+  nav.breadcrumbs.bootstrap{
+      padding-top:80px;
+  }
+}
+.module-group .left {
+  width: 100%;
+  float: right; 
+  background-color: #fff;
 }
